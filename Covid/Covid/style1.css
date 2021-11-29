@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+#top {
+    width: 100%;
+    height: 36px;
+    
+    display: flex;
+    
+}
+#top .time {
+    width: 50%;
+    height: 36px;
+    text-align: center;
+}
+#top .time p {
+    margin-top:10px;
+    color: #666;
+    font-size: 13px;
+}
+#top .hotline {
+    width: 200px;
+    height: 30px;
+    margin-left: 300px;
+    background-color: #ed1c24;
+    border-radius: 8px;
+    margin-top: 3px;
+    cursor: pointer;
+    
+}
+#top .hotline p {
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+    height:25px ;
+    font-weight:bold;
+    font-size:15px;
+}
+#header {
+    width: 100%;
+    height: 131px;
+    background-image: url(image/bg-header.png);
+    background-position-x: 1550px;
+}
+#header .logo {
+    margin-left: 150px;
+}
+#header .logo img {
+    margin-top: -37px;
+}
+#header .title-covid h2 {
+color: white;
+margin-left: 280px;
+margin-top: -28px;
+font-size:20px ;
+}
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: #2e3192;
+    
+}
+#menu .menu-items {
+    display: flex;
+    width: 1080px;
+    height: 100px;
+    margin-left: 150px;
+    color: white;
+    font-size: 14px;
+    
+   
+}
+#menu .menu-items h4 {
+    padding-right: 10px;
+    margin-top: 10px;
+}
+#menu .menu-items p {
+    margin-top: 3px;
+    padding-right: 10px;
+}
+#Covid-Statistics {
+    width: 1080px;
+    height: 120px;
+    
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#Covid-Statistics .place {
+    display: flex;
+   
+}
+#Covid-Statistics .place h2 {
+    padding-right: 10px;
+}
+#Covid-Statistics .place a {
+    text-decoration: none;
+}
+#Covid-Statistics .information {
+    display: flex;
+    margin-top: 10px;
+}
+#Covid-Statistics .cases {
+    width: 346.64px;
+    height: 78px;
+    background-color: #ed1c241a;
+}
+#Covid-Statistics .cases p {
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 3px;
+}
+#Covid-Statistics .recover {
+    width: 346.64px;
+    height: 78px;
+    margin-left: 17px;
+    background-color: #28a7451a;
+}
+#Covid-Statistics .recover p {
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 3px;
+}
+
+#Covid-Statistics .death {
+    width: 346.64px;
+    height: 78px;
+    background-color: #f0eff4;
+    margin-left: 17px;
+}
+#Covid-Statistics .death p {
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 3px; 
+}
+#container {
+    width: 1076px;
+    height: 573px;
+    margin-left:150px ;
+    margin-top: 20px;
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+}
+#container .home_focus-item {
+    width: 654px;
+    padding-right: 20px;
+}
+#container .home_focus-item h2 {
+    margin-top: 10px;
+}
+#container .home_focus-item p {
+    font-size: 15px;
+    margin-top: 10px
+}
+#container .happen {
+    width: 400px;
+    height:573px ;
+    
+}
+#container .happen .covid-happen {
+    color: #2e3192;
+    display: flex;
+}
+#container .happen .covid-happen h2 {
+    margin-left: 5px;
+}
+#container .announcement {
+    width: 400px;
+    height: 473px;
+    background-color: #f0f8ff;
+    border: 1px solid gainsboro;
+    overflow: auto;
+}
+#content1 {
+    width: 1073px;
+    height: 585px;
+    border-bottom: 1px solid #2e3192;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+}
+#content1 .content-1{
+    width: 48%;
+    height: 554px;
+    
+}
+#content1 .content-1 .content-item {
+    width: 100%;
+    height: 145px;
+    margin-top: 10px;
+    display: flex;
+}
+#content1 .content-1 .content-item .content h3 {
+    margin-left: 10px;
+    line-height: 25px;
+}
+#content1 .content-1 .content-item .content p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    
+}
+#content1 .content-2 {
+    width: 50%;
+    border-left: 1px solid gainsboro;
+    height: 554px;
+    margin-left: 2%;
+}
+#content1 .content-2 .content-item {
+    width: 96%;
+    height: 145px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+#content1 .content-2 .content-item .content h3 {
+    margin-left: 10px;
+    line-height: 25px;
+}
+#content1 .content-2 .content-item .content p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    
+}
+#content1 .content-4 {
+    width: 50%;
+    
+    height: 554px;
+    margin-left: 2%;
+    margin-top: 28px;
+}
+#content1 .content-4 .content-item {
+    width: 96%;
+    height: 145px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+}
+#content1 .content-4 .content-item .content h3 {
+    margin-left: 10px;
+    line-height: 25px;
+}
+#content1 .content-2 .content-item .content p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+    
+}
+#content1 .content-3{
+    width: 48%;
+    height: 554px;
+    
+}
+#content1 .content-3 .content-item {
+    width: 100%;
+    height: 145px;
+    margin-top: 10px;
+    
+}
+#content1 .content-3 .content-item .content h3 {
+    margin-left: 10px;
+    line-height: 25px;
+}
+#content1 .content-3 .content-item .content p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+#news {
+    width: 1072px;
+    height: 600px;
+    border-bottom: 1px solid #2e3192;
+    
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#news .new {
+    display: flex;
+    margin-top:10px;
+    
+}
+#news .new .new-item {
+    padding-right: 24px;
+    font-size: 15px;
+    line-height: 25px;
+}
+#news .new2 {
+    display: flex;
+    margin-top:30px;
+    
+}
+#news .new2 .new-item {
+    padding-right: 24px;
+    font-size: 15px;
+    line-height: 25px;
+}
+#link {
+    width: 1072px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+#link img {
+    padding-right: 20px;
+}
+#link .gov {
+    display: flex;
+    margin-top: 10px;
+}
+#footer {
+    width: 100%;
+    height: 150px;
+    background-color: #2e3192;
+    margin-top: 120px;
+}
+#footer .info-footer {
+    width: 1072px;
+    height: 110px;
+    margin-left: 150px;
+    display: flex;
+
+}
+#footer .info-footer .logo-footer {
+    margin-top: -38px;
+}
+#footer .info-footer .info {
+    color: white;
+    margin-top: 10px;
+    margin-left:15px;
+}
+#footer .info-footer .info h5 {
+    font-weight: 600;
+}
